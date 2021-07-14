@@ -10,5 +10,5 @@
 
 **To Run:**
 1. `python main.py`
-2. Enter link to match centre of a game on whoscored.com
-3. Make selections for map
+2. Enter link to match centre of a game on `whoscored.com`
+3. Make selections
