@@ -18,6 +18,8 @@ if selection == False then loop with message please use valid parameters"
 selection = False if player not chosen or invalid and if numbers arent chosen for heatmap/mapping or if numbers are out of range
 make diff error for each one using logger
 fix imports
+comments for functions
+put name and signiture at top of files amnd give credit to socplot/statsbomb for pitch.py
 """
 pitch = Pitch()
 
