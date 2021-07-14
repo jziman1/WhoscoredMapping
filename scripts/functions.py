@@ -39,10 +39,5 @@ def add_incompleted_passes(pitch, passes):
             pitch.plot_pass([1.2*pass_data['x'], 0.8*pass_data['y']], [1.2*pass_data['endX'], 0.8*pass_data['endY']])
 
 
-def add_carries(pitch, carries):
-    for carry_data in carries:
-        pitch.plot_pass([carry_data['location'][0], carry_data['location'][1]], [carry_data['carry']['end_location'][0], carry_data['carry']['end_location'][1]])
-
-
 def add_heatmap(pitch, x_array, y_array):
     pitch.heat_map(x_array, y_array, color='tan')
