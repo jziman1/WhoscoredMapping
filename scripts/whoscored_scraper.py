@@ -5,7 +5,7 @@ def get_data(link):
     """
     Returns a list of player ids and a list of events from the match in json
     """
-    driver = webdriver.Chrome(executable_path='/Users/jonathanziman/Desktop/SoccerAnalysis/socplot-master/socplot/chromedriver')
+    driver = webdriver.Chrome(executable_path='/Users/jonathanziman/Desktop/WhoscoredMapping/chromedriver')
     driver.minimize_window()
     driver.get(link)
     html = driver.page_source
