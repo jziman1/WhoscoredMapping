@@ -5,6 +5,7 @@ from functions import *
 from whoscored_scraper import *
 
 """
+TODO
 if__main__ then run
 logger
 look at using csv file
@@ -16,6 +17,7 @@ pass network
 if selection == False then loop with message please use valid parameters"
 selection = False if player not chosen or invalid and if numbers arent chosen for heatmap/mapping or if numbers are out of range
 make diff error for each one using logger
+fix imports
 """
 pitch = Pitch()
 
