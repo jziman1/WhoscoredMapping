@@ -2,3 +2,4 @@
 /env
 chromedriver
 scripts/__pycache__
+scripts/.DS_Store

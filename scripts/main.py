@@ -20,7 +20,9 @@ make diff error for each one using logger
 pitch = Pitch()
 
 player = input("Enter player name: ")
+print("\n")
 map_option = input("0: Completed passes" + "\n" "1: Incompleted passes" + "\n" + "2: Both completed and incompleted passes" + "\n")
+print("\n")
 heatmap_option = input("0: No heatmap" + "\n" "1: Heatmap" + "\n")
 
 try:
