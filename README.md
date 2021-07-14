@@ -1,4 +1,4 @@
-**Setup Requirements:**
+**Install Requirements:**
 1. cd WhoscoredMapping
 2. python3 -m venv env
 3. source env/bin/activate
